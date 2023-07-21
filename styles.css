@@ -23,3 +23,13 @@
     height: 100px;
     object-fit: contain;
 }
+
+.navigation {
+    display: flex;
+    align-items: center;
+
+}
+
+.navigation-items {
+    padding: 0 10px;
+}
