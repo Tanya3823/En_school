@@ -1,3 +1,9 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+}
+
+
 .girl {
     height: 800px;
     background-image: url(images/hero.jpg);
@@ -32,4 +38,15 @@
 
 .navigation-items {
     padding: 0 10px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
 }
