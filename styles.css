@@ -1,6 +1,6 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
-    color: black;
+    color: #1c1917;
 }
 
 html {
@@ -70,6 +70,19 @@ html {
     font-weight: 300;
     margin-bottom: 55px;
     max-width: 40%;
+    color: #57534e;
 }
 
-.button-record {}
+.button-record {
+    background-color: var(--dark-orange);
+    color: white;
+    font-size: 20px;
+    border-radius: 9px;
+    box-shadow: 3px 3px 5px #d6d3d1;
+    padding: 15px 30px;
+    border: none;
+}
+
+.button-record:hover {
+    background-color: #ea580c;
+}
