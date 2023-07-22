@@ -3,6 +3,12 @@ body {
     color: black;
 }
 
+html {
+    --light-orange: #ffedd5;
+    --dark-orange: #f97316;
+    --light-gray: #fafaf9;
+}
+
 
 .student {
     height: 800px;
@@ -58,3 +64,12 @@ body {
     margin-bottom: 50px;
     max-width: 50%;
 }
+
+.student-inform {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 55px;
+    max-width: 40%;
+}
+
+.button-record {}
