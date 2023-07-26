@@ -143,3 +143,9 @@ html {
     margin-top: 25px;
     line-height: 25px;
 }
+
+.our-priorities {
+    margin-top: 55px;
+    display: flex;
+
+}
