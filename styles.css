@@ -101,6 +101,45 @@ html {
 .advantages {
     display: flex;
     margin: 0 auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    background-color: rgb(242, 240, 240);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+}
+
+.advantage-icon {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--dark-orange);
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.advantage-title {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.advantage-text {
+    font-size: 15px;
+    font-weight: 300px;
+    color: #57534e;
+    margin-top: 25px;
+    line-height: 25px;
 }
