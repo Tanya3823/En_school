@@ -159,4 +159,10 @@ html {
 .our-priorities-text {
     color: #44403c;
     margin-top: 25px;
+    line-height: 25px;
+}
+
+.our-priorities-image {
+    width: 500px;
+    margin-left: 25px;
 }
