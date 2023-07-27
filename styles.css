@@ -196,3 +196,11 @@ html {
     margin-right: 10px;
     border: 1px solid #d6d3d1;
 }
+
+.division-feedback {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    background-color: var(--light-gray);
+
+}
