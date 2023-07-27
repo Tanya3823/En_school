@@ -166,3 +166,10 @@ html {
     width: 500px;
     margin-left: 25px;
 }
+
+.division-form {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    background-color: var(--light-orange);
+}
