@@ -180,3 +180,19 @@ html {
     margin-top: 25px;
 
 }
+
+.record-form {
+    display: flex;
+    justify-content: center;
+    margin: 65px auto;
+}
+
+.record-form-input {
+
+    font-size: 20px;
+    height: 55px;
+    border-radius: 9px;
+    padding-left: 7px;
+    margin-right: 10px;
+    border: 1px solid #d6d3d1;
+}
