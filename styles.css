@@ -173,3 +173,10 @@ html {
     margin: 0 auto;
     background-color: var(--light-orange);
 }
+
+.division-subtitle {
+    color: #57534e;
+    text-align: center;
+    margin-top: 25px;
+
+}
