@@ -294,3 +294,22 @@ html {
     border: none;
     width: 100%;
 }
+
+.button-record-litle:hover {
+    background-color: #fed7aa;
+}
+
+.footer {
+    background-color: #d6d3d1;
+    height: 150px;
+
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #78716c;
+    height: 100%;
+
+}
