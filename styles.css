@@ -7,6 +7,7 @@ html {
     --light-orange: #ffedd5;
     --dark-orange: #f97316;
     --light-gray: #fafaf9;
+    scroll-behavior: smooth;
 }
 
 
@@ -85,6 +86,10 @@ html {
 
 .button-record:hover {
     background-color: #ea580c;
+}
+
+.button-record:active {
+    background-color: #830c12;
 }
 
 .division {
@@ -299,6 +304,10 @@ html {
     background-color: #fed7aa;
 }
 
+.button-record-litle:active {
+    background-color: #978070;
+}
+
 .footer {
     background-color: #d6d3d1;
     height: 150px;
@@ -318,4 +327,13 @@ html {
     font-size: 20px;
     margin: 0 5px;
 
+}
+
+.link {
+    color: #44403c;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ea580c;
 }
