@@ -313,3 +313,9 @@ html {
     height: 100%;
 
 }
+
+.network-icon {
+    font-size: 20px;
+    margin: 0 5px;
+
+}
