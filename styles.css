@@ -347,7 +347,129 @@ html {
 }
 
 @media(max-width: 600px) {
+    .student {
+        height: 900px;
+        background-color: white;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(images/hero.jpg);
+    }
+
+    .container {
+        max-width: 600px;
+    }
+
+
     .header {
         flex-wrap: wrap;
     }
+
+    #logo-image {
+
+        margin-left: 10px;
+    }
+
+
+    .phone {
+
+        margin-right: 10px;
+    }
+
+    .student-title {
+        font-size: 50px;
+        margin-left: 10px;
+    }
+
+    .student-inform {
+        font-size: 20px;
+        margin-left: 10px;
+        max-width: 35%;
+    }
+
+
+    .advantages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantage {
+        width: 95%;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .advantage-text {
+        text-align: center;
+    }
+
+    .our-priorities {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .our-priorities-image {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .our-priorities-title {
+        margin-left: 10px;
+    }
+
+    .our-priorities-text {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: justify;
+    }
+
+    .record-form {
+        flex-direction: column;
+
+    }
+
+    .record-form-input {
+        margin: 10px;
+    }
+
+    .button-record {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .feedback {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .feedback-name {
+        margin-left: 10px;
+
+    }
+
+    .feedback-message {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .memberships {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .membership {
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        padding: 5px;
+    }
+
+    .footer-text {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
 }
